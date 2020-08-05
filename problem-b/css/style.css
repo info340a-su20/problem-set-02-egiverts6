@@ -1,0 +1,36 @@
+
+circle{
+    fill: currentColor;
+    color: #5f5f5f;
+}
+path{
+    stroke: #5f5f5f;
+    stroke-width : 8px;
+}
+path:hover{
+    color: red;
+}
+.small{
+    color: white;
+}
+.contained .small{
+    color: #573d29;
+}
+.contained #rect,circle{
+    fill: currentColor;
+    color: #c0c0c0;
+    stroke: none;
+    opacity: 1;
+}
+#interactive{
+    fill:#c0c0c0;
+    stroke: #bd250d;
+    stroke-width: 4px;
+}
+#interactive:hover{
+    fill: #bd250d;
+}
+rect{
+    opacity: 0;
+}
+
