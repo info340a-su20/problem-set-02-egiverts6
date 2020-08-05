@@ -60,9 +60,9 @@ tr {
 
     padding: .5em;
 
-   
 
 }
+
 
 caption,tr {
 
@@ -77,18 +77,14 @@ caption,tr {
 
 }
 
-.even {
-    background-color: #eee;
-}
-
-.odd {
-    background-color: white;
-}
-
-
 tr:hover {
     background-color:pink;
 }
+
+tr:nth-of-type(even) {
+    background-color:#eee;
+  }
+
 
 img {
     width:100px;

@@ -9,32 +9,42 @@ body {
 } 
 h1 { 
     font-size : 2.5rem; 
+    font-weight: 900;
     margin-top : 3em; 
 } 
 h1, span { 
     color : #4b2e83; 
 } 
+h2 {
+    color : #4b2e83; 
+    font-weight: 900;
+}
+
 h1, h2 { 
     font-family : 'Encode Sans', sans-serif; 
 } 
 nav { 
-    position : absolute; 
+    position : fixed; 
     top : 0; 
+    left : 0;
     width : 100%; 
     background-color : #4b2e83; 
-    padding : 0.75rem; 
+    padding : .75rem; 
 } 
 li a { 
     color : white; 
     text-decoration : none; 
 } 
 li { 
-    display : inline-block; 
+    display : inline; 
     margin-right : 1rem; 
+    padding : 0;
 } 
 ul { 
     margin : 0; 
-    padding : 0.5rem 0 0 0; 
+    padding : 0;
+    padding-top : .5rem; 
+    display : inline-block; 
 } 
 .searchBox { 
     float : right; 
@@ -42,22 +52,22 @@ ul {
 input { 
     height : 2.5rem; 
     font-size : 1rem; 
-    padding : 0.5rem; 
+    padding : .5rem; 
     vertical-align : bottom; 
 } 
 button { 
     height : 2.5rem; 
     font-size : 1.5rem; 
-    padding : 0.3rem; 
+    padding : .3rem; 
 } 
 li a:hover { 
     color : #b7a57a; 
     border-bottom : 0.6rem solid #b7a57a; 
-    padding : 0.8rem; 
+    padding : .8rem; 
 } 
 .logo { 
-    margin : 0 1em; 
-    background-image : url("../img/ischool-symbol-white.png"); 
+    margin : 1em; 
+    background-image : url("img/ischool-symbol-white.png"); 
     background-repeat : no-repeat; 
     background-size : cover; 
 }
