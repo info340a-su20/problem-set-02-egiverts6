@@ -20,12 +20,13 @@ table {
      margin-right: auto ;
  
      padding: .5em;
+     
  
-     border-bottom-width: 1px;
+   /*  border-bottom-width: 1px;
      
      border-bottom-style: solid;
  
-     border-bottom-color:#d3d3d3;
+     border-bottom-color:#d3d3d3;*/
 
     border-collapse: collapse;
 
@@ -34,6 +35,8 @@ table {
  }
 
  th {
+
+    padding: .5em;
 
     text-align: left;
 
@@ -45,7 +48,9 @@ table {
 
     background-color:#d3d3d3;
 
-    padding: .5em;
+
+    border-bottom: 1px solid #d3d3d3;
+
 
 
 }
@@ -61,7 +66,9 @@ tr {
     padding: .5em;
 
 
+
 }
+
 
 
 caption,tr {
@@ -77,13 +84,16 @@ caption,tr {
 
 }
 
-tr:hover {
-    background-color:pink;
-}
+
 
 tr:nth-of-type(even) {
     background-color:#eee;
   }
+
+  tr:hover {
+    background-color:pink;
+}
+
 
 
 img {

@@ -11,10 +11,13 @@ path{
 .small{
     color: white;
 }
-.contained .small{
+.contained circle .small{
     color: #573d29;
 }
-.contained #rect,circle{
+rect{
+    opacity: 0;
+}
+.contained rect,circle{
     fill: #c0c0c0;
     stroke: none;
     opacity: 1;
@@ -27,9 +30,7 @@ path{
 #interactive:hover{
     fill: #bd250d;
 }
-rect{
-    opacity: 0;
-}
+
 
 path:last-child	{
     stroke : none;

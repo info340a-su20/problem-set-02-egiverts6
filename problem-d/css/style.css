@@ -67,7 +67,6 @@ li a:hover {
 } 
 .logo { 
     margin : 1em; 
-    background-image : url("img/ischool-symbol-white.png"); 
-    background-repeat : no-repeat; 
-    background-size : cover; 
+    background : no-repeat top left; 
+    background-size : cover;
 }

@@ -11,9 +11,9 @@
 
   <!-- Page Title -->
   <header>
-  <h1>My Photo Journal</h1>
-  <p>A collection of photographs I like, updated daily</p>
-</header>
+    <h2>My Photo Journal</h2>
+    <p>A collection of photographs I like, updated daily</p>
+  </header>
 
 
   <!-- Image Post -->
@@ -28,40 +28,44 @@
       <p>
         <img src="img/2959326615_af04f9878a_z.jpg" alt="a piicture of a black and white dog">
       </p>
-      <p>This picture is <cite>"Bizzard, the pup", by Frank Harvey. From the <a href="https://www.flickr.com/photos/statelibraryofnsw/2959326615/">State Library of NSW</a></i></p>
+      <p>This picture is <cite>"Bizzard, the pup", by Frank Harvey. From the <a href="https://www.flickr.com/photos/statelibraryofnsw/2959326615/">State Library of NSW</a></cite></p>
     </section>
 
 
   <!-- Comment Form -->
     <section>
       <form>
-        <h3>Leave a comment</h3>
+        <p>Leave a comment</p>
         <div>
           <label for="email_input">
-            Email: <input type="email" id="email_input" placeholder="email@domain.com">
+            Email: 
           </label>
+          <input type="email" name="email" id="email_input" placeholder="email@domain.com">
           <label for="password_input">
-            Password: <input type="password" id="password_input">
+            Password: 
           </label>
+          <input type="password" name="password" id="password_input">
         </div>
         <div>
-          <label for="comment_field"></label>
+          <label for="comment_field">
             Comment:
-            <textarea type="comment" class="form-control" id="comment_field"></textarea>
           </label>
+          <textarea type="comment" name="comment" class="form-control" id="comment_field"></textarea>
         </div>
-        <button aria-label="Submit" ><i class="fas fa-pencil-alt"></i></button>
+        <button ><i aria-label="Submit" class="fas fa-pencil-alt">Submit</i></button>
       </form>
-  </section>
-</main>
+    </section>
+  </main>
 
 
   <!-- Author Info -->
-  <p>This journal was created by me using my own two hands.</p>
-  <address>
-    Contact me at <a href="mailto:me@here.com">me@here.com</a>, or at <a href="tel:1-555-123-4567">(555) 123-4567</a>.
-  </address>
-  <p>&#xA9; 2019 The Author.</p>
+  <footer>
+    <p>This journal was created by me using my own two hands.</p>
+    <address>
+      Contact me at <a href="mailto:me@here.com">me@here.com</a>, or at <a href="tel:555-123-4567">(555) 123-4567</a>.
+    </address>
+    <p>&#xA9; 2019 The Author.</p>
+</footer>
  
 </body>
 </html>
